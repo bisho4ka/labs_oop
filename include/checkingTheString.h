@@ -2,4 +2,4 @@
 #include <iostream>
 #include <string>
 
-bool checkString(const std::string &str);
+bool checkingTheString(const std::string &str);
