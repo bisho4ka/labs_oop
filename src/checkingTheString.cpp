@@ -3,7 +3,7 @@
 bool checkingTheString(const std::string &str) {
     int open = 0, close = 0;
     
-    if (str.size() == 0) return true;
+    if (str.length() == 0) return true;
 
     for (int i = 0; i < str.length(); i++) {
         if (str[i] == '(') open += 1;
