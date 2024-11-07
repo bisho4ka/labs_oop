@@ -1,1 +1,12 @@
-
+{
+    "name": "lab1 C++",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+    "context": "..",
+    "extensions": [
+        "ms-vscode.cmake-tools",
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-extension-pack"
+    ]
+}
